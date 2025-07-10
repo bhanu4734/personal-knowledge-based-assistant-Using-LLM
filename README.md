@@ -25,13 +25,15 @@ Make sure your environment can run the TinyLLaMA or your preferred local model.
 python app.py
 Then open your browser and go to http://127.0.0.1:5000
 
-📄 Usage
+📄 Usage : 
+
 Upload a .txt or .pdf file using the upload field.
 Enter your question related to the content.
 Click "Submit" and wait for the response from the local LLM.
 
 
-🔧 Customization
+🔧 Customization: 
+
 Model Personal & Name 
 Change the model and persona used in LocalLLM inside app.py:
 llm = LocalLLM(persona="webassistant", model="tinyllama")
@@ -39,11 +41,13 @@ Enable More LLM Features
 
 
 Uncomment the lines in app.py to use:
+
 Keyword Extraction
 Paraphrasing
 Question Generation
 
-📌 Dependencies
+📌 Dependencies : 
+
 Flask
 PyMuPDF / pdfminer (for PDF reading)
 Your local LLM serving framework (e.g., HuggingFace Transformers, llama.cpp)

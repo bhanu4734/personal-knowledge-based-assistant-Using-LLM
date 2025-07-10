@@ -1,7 +1,8 @@
 # Local LLM Web Assistant
+
 This project is a lightweight Flask web application that allows users to upload .txt or .pdf files and interact with them using a locally hosted Large Language Model (LLM) like TinyLLaMA. It supports answering user queries based on the uploaded content.
 
-🚀 Features
+# 🚀 Features
 
 1.Upload .txt or .pdf documents
 
@@ -14,7 +15,7 @@ This project is a lightweight Flask web application that allows users to upload 
 5.Extensible: keywords extraction, paraphrasing, and question generation (commented out in current version)
 
 
-🛠️ Setup and Run
+# 🛠️ Setup and Run
 
 1. Clone the repository
 git clone https://github.com/yourusername/local-llm-web-assistant.git
@@ -29,7 +30,7 @@ Make sure your environment can run the TinyLLaMA or your preferred local model.
 python app.py
 Then open your browser and go to http://127.0.0.1:5000
 
-📄 Usage : 
+# 📄 Usage : 
 
 1.Upload a .txt or .pdf file using the upload field.
 
@@ -38,7 +39,7 @@ Then open your browser and go to http://127.0.0.1:5000
 3.Click "Submit" and wait for the response from the local LLM.
 
 
-🔧 Customization: 
+# 🔧 Customization: 
 
 1.Model Personal & Name 
 
@@ -49,7 +50,7 @@ Then open your browser and go to http://127.0.0.1:5000
 4.Enable More LLM Features
 
 
-Uncomment the lines in app.py to use:
+# Uncomment the lines in app.py to use:
 
 1.Keyword Extraction
 
@@ -58,7 +59,7 @@ Uncomment the lines in app.py to use:
 3.Question Generation
 
 
-📌 Dependencies : 
+# 📌 Dependencies : 
 
 1.Flask
 
@@ -66,7 +67,7 @@ Uncomment the lines in app.py to use:
 
 3.Your local LLM serving framework (e.g., HuggingFace Transformers, llama.cpp)
 
-📬 TODO: 
+# 📬 TODO: 
 
 1.Add session history or chat memory
 

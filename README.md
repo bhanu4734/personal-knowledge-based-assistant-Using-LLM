@@ -3,11 +3,15 @@ This project is a lightweight Flask web application that allows users to upload 
 
 🚀 Features
 
-Upload .txt or .pdf documents
-Ask natural language questions about the uploaded content
-Get concise answers using a local LLM (e.g., TinyLLaMA)
-Simple and clean web interface
-Extensible: keywords extraction, paraphrasing, and question generation (commented out in current version)
+1.Upload .txt or .pdf documents
+
+2.Ask natural language questions about the uploaded content
+
+3.Get concise answers using a local LLM (e.g., TinyLLaMA)
+
+4.Simple and clean web interface
+
+5.Extensible: keywords extraction, paraphrasing, and question generation (commented out in current version)
 
 
 🛠️ Setup and Run
@@ -27,48 +31,48 @@ Then open your browser and go to http://127.0.0.1:5000
 
 📄 Usage : 
 
-Upload a .txt or .pdf file using the upload field.
+1.Upload a .txt or .pdf file using the upload field.
 
-Enter your question related to the content.
+2.Enter your question related to the content.
 
-Click "Submit" and wait for the response from the local LLM.
+3.Click "Submit" and wait for the response from the local LLM.
 
 
 🔧 Customization: 
 
-Model Personal & Name 
+1.Model Personal & Name 
 
-Change the model and persona used in LocalLLM inside app.py
+2.Change the model and persona used in LocalLLM inside app.py
 
-llm = LocalLLM(persona="webassistant", model="tinyllama")
+3.llm = LocalLLM(persona="webassistant", model="tinyllama")
 
-Enable More LLM Features
+4.Enable More LLM Features
 
 
 Uncomment the lines in app.py to use:
 
-Keyword Extraction
+1.Keyword Extraction
 
-Paraphrasing
+2.Paraphrasing
 
-Question Generation
+3.Question Generation
 
 
 📌 Dependencies : 
 
-Flask
+1.Flask
 
-PyMuPDF / pdfminer (for PDF reading)
+2.PyMuPDF / pdfminer (for PDF reading)
 
-Your local LLM serving framework (e.g., HuggingFace Transformers, llama.cpp)
+3.Your local LLM serving framework (e.g., HuggingFace Transformers, llama.cpp)
 
 📬 TODO: 
 
-Add session history or chat memory
+1.Add session history or chat memory
 
-Improve UI/UX
+2.Improve UI/UX
 
-Deploy with Docker or Streamlit alternative
+3.Deploy with Docker or Streamlit alternative
 
-Add support for other document types (e.g., .docx)
+4.Add support for other document types (e.g., .docx)
 
